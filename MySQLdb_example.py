@@ -4,9 +4,10 @@ import MySQLdb
 db=MySQLdb.connect(host="openserver",user="root",passwd="",db="stden",use_unicode=True)
 db.set_character_set('utf8')
 c=db.cursor()
-c.execute('SET NAMES utf8;')
-c.execute('SET CHARACTER SET utf8;')
-c.execute('SET character_set_connection=utf8;')
+# Избыточные установки utf8 - может в некоторых случаях не избыточные? :)
+#c.execute('SET NAMES utf8;')
+#c.execute('SET CHARACTER SET utf8;')
+#c.execute('SET character_set_connection=utf8;')
 
 # Устанавливаем UTF-8 для вывода в консоли
 import sys
