@@ -1,0 +1,3 @@
+[submodule "django-ipgeobase"]
+	path = django-ipgeobase
+	url = git://github.com/satels/django-ipgeobase.git
