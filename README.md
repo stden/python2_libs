@@ -10,3 +10,8 @@ python 2.7 my power pack :)
 $ git clone git://github.com/satels/django-ipgeobase.git
 $ cd django-ipgeobase
 $ python setup.py install
+
+svn checkout http://rollyourown.googlecode.com/svn/trunk/ rollyourown
+
+
+

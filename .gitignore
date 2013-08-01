@@ -29,3 +29,5 @@ pip-log.txt
 # Temp + Logs 
 *.tmp
 *.log
+
+.svn
